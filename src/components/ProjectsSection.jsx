@@ -44,43 +44,17 @@ const projects = [
     },
    {
     id: 3,
-    title: "Converse Pro",
-    category: "Real-time Communication",
-    description: "Chat platform with real-time messaging, media sharing, and user authentication.",
-    image: "/projects/project2.png",
-    tags: ["Socket.IO", "MongoDB", "React", "WebRTC"],
-    demoUrl: "https://converse-pro-frontend.vercel.app",
-    githubUrl: "https://github.com/Sahilmd01/converse-pro",
+    title: "Portfolio",
+    category: "Frontend",
+    description: "A modern and responsive Portfolio Web Application built to showcase my projects, skills, and experience as a developer. This app highlights my work, technical skills, and provides an easy way for recruiters and visitors to connect with me.",
+    image: "/projects/project3.png",
+    tags: ["HTML5", "CSS3", "React","JavaScript", "React Router"],
+    demoUrl: "https://portfolio01-ecru-six.vercel.app/",
+    githubUrl: "https://github.com/MeenalKesarkar/Portfolio01",
     featured: true,
     accentColor: "from-blue-500 to-cyan-600",
     status: "Live",
-    highlights: ["Real-time chat", "Media sharing", "User authentication"]
-  },
-  {
-    id: 4,
-    title: "Blogni AI",
-    category: "Artificial Intelligence",
-    description: "AI-powered content generation platform with multi-language support.",
-    image: "/projects/project3.png",
-    tags: ["Next.js", "Gemini AI", "Clerk Auth", "Redis"],
-    demoUrl: "https://blogni.vercel.app",
-    githubUrl: "https://github.com/Sahilmd01/Blogni",
-    accentColor: "from-amber-500 to-orange-600",
-    status: "Live",
-    highlights: ["AI content generation", "Multi-language", "User accounts"]
-  },
-  {
-    id: 5,
-    title: "Spendlix",
-    category: "FinTech",
-    description: "Financial tracking platform with expense management and budgeting features.",
-    image: "/projects/project4.png",
-    tags: ["React", "Chart.js", "Node.js", "Firebase"],
-    demoUrl: "https://spendlix.vercel.app/login",
-    githubUrl: "https://github.com/Sahilmd01/Spendlix",
-    accentColor: "from-rose-500 to-pink-600",
-    status: "Live",
-    highlights: ["Expense tracking", "Data visualization", "Budget planning"]
+    highlights: ["Mobile responsive design", "Smooth UI/UX", "Project showcase"]
   },
 ];
 
