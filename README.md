@@ -46,13 +46,13 @@ portfolio-app/
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/MeenalKesarkar/Portfolio01
 ```
 
 ### 2️⃣ Navigate to the project directory
 
 ```bash
-cd your-repo-name
+cd react-tut
 ```
 
 ### 3️⃣ Install dependencies
