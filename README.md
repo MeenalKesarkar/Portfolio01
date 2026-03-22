@@ -75,12 +75,6 @@ npm run dev
 
 ---
 
-## 📸 Screenshots
-
-(Add screenshots of your portfolio here)
-
----
-
 ## ✨ Projects Included
 
 * 🛒 Ecommerce Website
@@ -90,13 +84,6 @@ npm run dev
 
 ---
 
-## 📬 Contact Me
-
-* 📧 Email: [your-email@example.com](mailto:your-email@example.com)
-* 💼 LinkedIn: https://linkedin.com/in/your-profile
-* 🐙 GitHub: https://github.com/your-username
-
----
 
 ## ⭐ Acknowledgements
 
