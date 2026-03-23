@@ -19,7 +19,7 @@ export const AboutSection = () => {
 
   const achievements = [
     { number: "5+", label: "Projects", icon: <Briefcase size={18} /> },
-    { number: "1", label: "Freelancing", icon: <Calendar size={18} /> },
+    { number: "1", label: "Year Freelancing", icon: <Calendar size={18} /> },
     { number: "100%", label: "Learning", icon: <Target size={18} /> },
     { number: "Open", label: "Opportunities", icon: <User size={18} /> },
   ];
@@ -56,8 +56,8 @@ export const AboutSection = () => {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/Meenal-resume.pdf";
-    link.download = "Meenal-resume.pdf";
+    link.href = "/Meenal_Kesarkar_Resume.pdf";
+    link.download = "Meenal_Kesarkar_Resume.pdf";
     link.click();
   };
 
