@@ -69,7 +69,7 @@ export const Navbar = () => {
   const audioRef = useRef(null);
   const lastScrollY = useRef(0);
 
-  // ✅ Toggle Music
+ 
   const toggleMusic = async () => {
     if (!audioRef.current) return;
 
@@ -88,7 +88,7 @@ export const Navbar = () => {
     setIsMusicPlaying(!isMusicPlaying);
   };
 
-  // ✅ Scroll logic
+  
   useEffect(() => {
     const handleScroll = () => {
       const current = window.scrollY;
@@ -126,12 +126,12 @@ export const Navbar = () => {
 
   return (
     <>
-      {/* 🎵 Hidden Audio Element */}
+     
       <audio ref={audioRef} loop>
         <source src="/music.mp3" type="audio/mp3" />
       </audio>
 
-      {/* Top Right Buttons */}
+     
       <motion.div
         className="fixed top-5 right-5 flex gap-3 z-50"
         initial={{ opacity: 0, y: -20 }}
@@ -162,7 +162,7 @@ export const Navbar = () => {
           <Linkedin className="w-6 h-6 text-blue-400" />
         </a>
 
-        {/* 🎵 Music Button */}
+       
         <button
           onClick={toggleMusic}
           className="p-3 rounded-full bg-blue-950/80 backdrop-blur-xl border border-blue-800/40 hover:bg-blue-500/20 transition"
@@ -175,7 +175,7 @@ export const Navbar = () => {
         </button>
       </motion.div>
 
-      {/* Bottom Navbar */}
+     
       <motion.div
         className={cn(
           "fixed bottom-6 left-1/2 -translate-x-1/2 z-50 transition-all",

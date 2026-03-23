@@ -167,7 +167,6 @@
  
 
 
-/* MAIN SCENE */
 
 .storm-night-scene{
 position:fixed;
@@ -177,7 +176,6 @@ z-index:-10;
 background:radial-gradient(circle at top,#0a0a1a,#000);
 }
 
-/* FULL MOON */
 
 .moon{
 position:absolute;
@@ -214,7 +212,7 @@ border-radius:50%;
 opacity:0.4;
 }
 
-/* STARS */
+
 
 .star{
 position:absolute;
@@ -229,7 +227,7 @@ animation:twinkle 4s infinite ease-in-out;
 50%{opacity:1;}
 }
 
-/* CLOUDS */
+
 
 .cloud{
 position:absolute;
@@ -268,7 +266,7 @@ right:15%;
 100%{transform:translateX(120vw);}
 }
 
-/* LIGHTNING FLASH */
+
 
 .lightning{
 position:absolute;
@@ -284,7 +282,7 @@ animation:flash 8s infinite;
 96%{opacity:0;}
 }
 
-/* FOG */
+
 
 .fog{
 position:absolute;
@@ -301,7 +299,7 @@ animation:fogMove 30s linear infinite;
 100%{transform:translateX(30%);}
 }
 
-/* FOREST */
+
 
 .forest{
 position:absolute;
