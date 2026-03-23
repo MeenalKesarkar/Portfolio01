@@ -72,7 +72,7 @@ export const HeroSection = () => {
 
 
   const handleResume = ()=>{
-    window.open("/Meenal-resume.pdf","_blank");
+    window.open("/Meenal_Kesarkar_Resume.pdf","_blank");
   };
 
 
