@@ -202,7 +202,7 @@ export const ContactSection = () => {
               </a>
 
               <a
-                href="https://www.linkedin.com"
+                href="https://www.linkedin.com/in/meenal-kesarkar-031070258"
                 target="_blank"
                 className="p-3 rounded-lg bg-white/5 hover:bg-cyan-500/20 transition"
               >
@@ -210,7 +210,7 @@ export const ContactSection = () => {
               </a>
 
               <a
-                href="https://www.instagram.com"
+                href="https://www.instagram.com/meenalll__"
                 target="_blank"
                 className="p-3 rounded-lg bg-white/5 hover:bg-cyan-500/20 transition"
               >
@@ -221,7 +221,7 @@ export const ContactSection = () => {
 
           </div>
 
-          {/* Contact Form */}
+          
 
           <div className="bg-white/5 backdrop-blur-xl border border-white/10 p-8 rounded-2xl">
 
