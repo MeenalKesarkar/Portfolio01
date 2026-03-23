@@ -62,7 +62,7 @@ const projects = [
     category: "React",
     description: "A simple and responsive Grocery List web application that allows users to add, edit, and delete items efficiently. The app helps users organize daily shopping tasks with an intuitive and clean user interface.",
     image: "/projects/project4.png",
-    tags: ["HTML5", "CSS3", "React","JavaScript", "React Router"],
+    tags: ["HTML5", "CSS3", "React","JavaScript"],
     demoUrl: "https://grocery-list-one-kappa.vercel.app/",
     githubUrl: "https://github.com/MeenalKesarkar/Grocery-list",
     featured: true,
