@@ -70,6 +70,24 @@ const projects = [
     status: "Live",
     highlights: ["Add, edit, and delete grocery items", "Clean and user-friendly UI", "Responsive design for all devices"]
   },
+  {
+    id: 5,
+    title: "Chatbot",
+    category: "React",
+    description: "A simple and interactive Chatbot web application that allows users to send messages and receive automated responses. The app includes dynamic features like current date and time with a clean and responsive user interface.",
+    image: "/projects/project5.png",
+    tags: ["HTML5", "CSS3", "React","JavaScript"],
+    demoUrl: "https://chatbot-two-mocha-43.vercel.app/",
+    githubUrl: "https://github.com/MeenalKesarkar/Chatbot",
+    featured: true,
+    accentColor: "from-blue-500 to-cyan-600",
+    status: "Live",
+    highlights: [
+        "Interactive chat interface with real-time responses",
+        "Displays current date and time dynamically",
+        "Clean, responsive, and user-friendly UI"
+    ]
+  },
 ];
 
 const categoryColors = {
