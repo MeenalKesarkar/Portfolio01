@@ -2,170 +2,96 @@ import {
   ArrowUp,
   Linkedin,
   Instagram,
+  Youtube,
   Github,
   Mail,
   Phone,
+  MapPin,
 } from "lucide-react";
 import { motion } from "framer-motion";
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
-
+  
   const socialLinks = [
-    {
-      icon: <Linkedin size={20} />,
-      href: "https://www.linkedin.com/in/meenal-kesarkar-031070258/",
-    },
-    {
-      icon: <Instagram size={20} />,
-      href: "https://www.instagram.com/meenalll__",
-    },
-    {
-      icon: <Github size={20} />,
-      href: "https://github.com/MeenalKesarkar",
-    },
+    { icon: <Linkedin size={18} />, href: "https://www.linkedin.com/in/meenal-kesarkar-031070258", label: "LinkedIn" },
+    { icon: <Instagram size={18} />, href: "https://www.instagram.com/meenalll__", label: "Instagram" },
+    { icon: <Github size={18} />, href: "https://github.com/MeenalKesarkar", label: "GitHub" },
   ];
 
   const quickLinks = [
     { name: "Home", href: "#hero" },
     { name: "About", href: "#about" },
-    { name: "Projects", href: "#projects" },
+    { name: "Work", href: "#work" },
     { name: "Contact", href: "#contact" },
   ];
 
   const contactInfo = [
-    {
-      icon: <Mail size={18} />,
-      text: "minalkesarkar8@gmail.com",
-      href: "mailto:minalkesarkar8@gmail.com",
-    },
-    {
-      icon: <Phone size={18} />,
-      text: "+91 7624923602",
-      href: "tel:+917624923602",
-    },
+    { icon: <Mail size={16} />, text: "minalkesarkar8@gmail.com", href: "mailto:minalkesarkar8@gmail.com.com" },
+    { icon: <Phone size={16} />, text: "+91 7624923602", href: "tel:+917624923602" },
   ];
 
   return (
-    <footer className="px-6 py-16 mt-20">
-      <div className="max-w-7xl mx-auto">
+    <footer className="px-6 py-12 mt-20">
+      <div className="max-w-6xl mx-auto">
+        <motion.div className="backdrop-blur-lg bg-white/70 dark:bg-gray-900/70 rounded-xl p-8 border border-white/20 dark:border-gray-700/50 shadow-lg">
 
-        {/* Footer Card */}
-        <div className="backdrop-blur-xl bg-gradient-to-br from-slate-900/90 via-indigo-900/80 to-slate-900/90 rounded-2xl p-10 border border-indigo-500/20 shadow-2xl">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-start">
 
-          {/* Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-
-            {/* Branding */}
-            <div className="flex flex-col gap-4">
-
-              <h3 className="text-2xl font-semibold text-white">
-                Meenal Kesarkar
-              </h3>
-
-              <p className="text-gray-300 text-sm leading-relaxed max-w-sm">
-                MERN Stack Developer building modern and responsive web applications.
+            <div className="space-y-4 max-w-xs">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white">Meenal</h3>
+              <p className="text-gray-600 dark:text-gray-300 text-sm">
+               Passionate developer creating clean and user-friendly web apps
               </p>
-
-              <div className="flex gap-4 mt-2">
+              <div className="flex space-x-4">
                 {socialLinks.map((social, index) => (
-                  <motion.a
-                    key={index}
-                    href={social.href}
-                    target="_blank"
-                    className="p-2 rounded-lg bg-white/10 hover:bg-indigo-500 transition text-white"
-                    whileHover={{ y: -3 }}
-                  >
+                  <a key={index} href={social.href} target="_blank" rel="noopener noreferrer"
+                    className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white">
                     {social.icon}
-                  </motion.a>
+                  </a>
                 ))}
               </div>
-
             </div>
 
-            {/* Navigation */}
-            <div className="flex flex-col gap-4">
-
-              <h4 className="text-white text-lg font-semibold tracking-wide">
-                Navigation
-              </h4>
-
+            <div className="text-center">
+              <h4 className="text-gray-900 dark:text-white font-medium mb-4 text-sm uppercase tracking-wider">Redirect To :</h4>
               <ul className="space-y-3">
                 {quickLinks.map((link, index) => (
                   <li key={index}>
-                    <a
-                      href={link.href}
-                      className="text-gray-300 hover:text-white text-sm transition"
-                    >
+                    <a href={link.href} className="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
                       {link.name}
                     </a>
                   </li>
                 ))}
               </ul>
-
             </div>
 
-            {/* Contact */}
-            <div className="flex flex-col gap-4">
-
-              <h4 className="text-white text-lg font-semibold tracking-wide">
+            <div className="flex flex-col items-center text-center">
+              <h4 className="text-gray-900 dark:text-white font-medium mb-6 text-sm uppercase tracking-wider">
                 Contact
               </h4>
 
-              <ul className="space-y-4">
+              <div className="space-y-4">
                 {contactInfo.map((info, index) => (
-                  <li
-                    key={index}
-                    className="flex items-center gap-3 text-gray-300 text-sm"
-                  >
-                    <span className="text-indigo-400">
-                      {info.icon}
-                    </span>
-
-                    <a
-                      href={info.href}
-                      className="hover:text-white transition"
-                    >
+                  <div key={index} className="flex items-center justify-center gap-3 text-sm text-gray-600 dark:text-gray-300">
+                    <span className="text-gray-600 dark:text-gray-400">{info.icon}</span>
+                    <a href={info.href} className="hover:text-gray-900 dark:hover:text-white">
                       {info.text}
                     </a>
-                  </li>
+                  </div>
                 ))}
-              </ul>
-
+              </div>
             </div>
 
           </div>
 
-          {/* Bottom Bar */}
-          <div className="mt-12 border-t border-indigo-500/20 pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-400">
-
-            <p>
-              © {currentYear} <span className="text-white">Meenal Kesarkar</span>. All rights reserved.
-            </p>
-
-            <div className="flex items-center gap-6">
-
-              <a href="#" className="hover:text-white transition">
-                Privacy
-              </a>
-
-              <a href="#" className="hover:text-white transition">
-                Terms
-              </a>
-
-              <motion.a
-                href="#hero"
-                className="p-3 rounded-full bg-indigo-600 hover:bg-indigo-500 text-white transition"
-                whileHover={{ y: -3 }}
-              >
-                <ArrowUp size={18} />
-              </motion.a>
-
+          <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700/50 flex flex-col items-center text-xs text-gray-600 dark:text-gray-400 space-y-4 sm:space-y-0 sm:flex-row sm:justify-between">
+            <div>
+              <p>© {currentYear} Meenal. All rights reserved. Design inspired by MD Sahil</p>
             </div>
-
           </div>
 
-        </div>
+        </motion.div>
       </div>
     </footer>
   );
