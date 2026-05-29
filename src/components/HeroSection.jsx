@@ -26,10 +26,10 @@ export const HeroSection = () => {
   ];
 
   const achievements = [
-    { number: "1+", label: "Years in Freelancing", icon: <Shield className="h-3 w-3" /> },
-    { number: "5+", label: "Projects Delivered", icon: <TrendingUp className="h-3 w-3" /> },
+    { number: "2+", label: "Years in Freelancing", icon: <Shield className="h-3 w-3" /> },
+    { number: "20+", label: "Projects Delivered", icon: <TrendingUp className="h-3 w-3" /> },
     { number: "100%", label: "Client Satisfaction", icon: <Award className="h-3 w-3" /> },
-    { number: "10+", label: "Projects completed", icon: <Zap className="h-3 w-3" /> }
+    { number: "20+", label: "Projects completed", icon: <Zap className="h-3 w-3" /> }
   ];
 
   useEffect(() => {
@@ -55,7 +55,7 @@ export const HeroSection = () => {
 
   const handleViewResume = () => {
     // Open resume in new tab
-    window.open('/Meenal_Kesarkar_Resume.pdf', '_blank', 'noopener,noreferrer');
+    window.open('/Meenal-Updated-MERN-Stack-Resume.pdf', '_blank', 'noopener,noreferrer');
   };
 
   return (
