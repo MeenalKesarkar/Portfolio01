@@ -55,7 +55,7 @@ export const HeroSection = () => {
 
   const handleViewResume = () => {
     // Open resume in new tab
-    window.open('/Meenal-Updated-MERN-Stack-Resume.pdf', '_blank', 'noopener,noreferrer');
+    window.open('/Meenal_Kesarkar_Full_Stack_Resume.pdf', '_blank', 'noopener,noreferrer');
   };
 
   return (

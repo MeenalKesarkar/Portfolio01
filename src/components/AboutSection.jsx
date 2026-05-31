@@ -47,8 +47,8 @@ export const AboutSection = () => {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/Meenal-Updated-MERN-Stack-Resume.pdf';
-    link.download = 'Meenal-Updated-MERN-Stack-Resumes.pdf';
+    link.href = '/Meenal_Kesarkar_Full_Stack_Resume.pdf';
+    link.download = 'Meenal_Kesarkar_Full_Stack_Resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
