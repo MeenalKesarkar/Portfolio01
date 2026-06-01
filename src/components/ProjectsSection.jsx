@@ -4,7 +4,26 @@ import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion"
 
 const projects = [
   {
-    id: 1,
+  id: 1,
+  title: "E-Commerce Store",
+  category: "MERN Stack",
+  description: "A full-stack E-Commerce application built with the MERN stack, featuring product browsing, cart management, user authentication, and order processing.",
+  image: "/projects/ecommerce.png",
+  tags: ["React", "Node.js", "Express", "MongoDB", "JWT"],
+  demoUrl: "https://e-com-indol-alpha.vercel.app/",
+  githubUrl: "https://github.com/MeenalKesarkar/E-com",
+  featured: true,
+  accentColor: "from-emerald-500 to-teal-600",
+  status: "Live",
+  highlights: [
+    "User Authentication & Authorization",
+    "Product Catalog & Search",
+    "Shopping Cart Management",
+    "Responsive Full-Stack Design"
+  ]
+  },
+  {
+    id: 2,
     title: "MERN Blog Application",
     category: "Mern stack",
     description: "A Full-stack blog platform where users can create, edit, delete, and search posts using the MERN stack.",
@@ -22,9 +41,8 @@ const projects = [
       "REST API integration"
     ]
   },
- 
   {
-      id: 2,
+      id: 3,
       title: "Resort Booking Website",
       category: "Frontend",
       description: "A responsive resort booking website for Dandeli tourism where users can explore resorts, rooms, packages, and water activities with direct booking via call or WhatsApp.",
@@ -43,7 +61,7 @@ const projects = [
       ]
     },
    {
-    id: 3,
+    id: 4,
     title: "Portfolio",
     category: "Frontend",
     description: "A modern and responsive Portfolio Web Application built to showcase my projects, skills, and experience as a developer. This app highlights my work, technical skills, and provides an easy way for recruiters and visitors to connect with me.",
@@ -57,7 +75,7 @@ const projects = [
     highlights: ["Mobile responsive design", "Smooth UI/UX", "Project showcase"]
   },
   {
-    id: 4,
+    id: 5,
     title: "Grocery-List",
     category: "React",
     description: "A simple and responsive Grocery List web application that allows users to add, edit, and delete items efficiently. The app helps users organize daily shopping tasks with an intuitive and clean user interface.",
@@ -71,7 +89,7 @@ const projects = [
     highlights: ["Add, edit, and delete grocery items", "Clean and user-friendly UI", "Responsive design for all devices"]
   },
   {
-    id: 5,
+    id: 6,
     title: "Chatbot",
     category: "React",
     description: "A simple and interactive Chatbot web application that allows users to send messages and receive automated responses. The app includes dynamic features like current date and time with a clean and responsive user interface.",
