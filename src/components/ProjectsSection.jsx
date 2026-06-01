@@ -8,7 +8,7 @@ const projects = [
   title: "E-Commerce Store",
   category: "MERN Stack",
   description: "A full-stack E-Commerce application built with the MERN stack, featuring product browsing, cart management, user authentication, and order processing.",
-  image: "/projects/ecommerce.png",
+  image: "/projects/project01.png",
   tags: ["React", "Node.js", "Express", "MongoDB", "JWT"],
   demoUrl: "https://e-com-indol-alpha.vercel.app/",
   githubUrl: "https://github.com/MeenalKesarkar/E-com",
