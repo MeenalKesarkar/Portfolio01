@@ -8,10 +8,10 @@ export const AboutSection = () => {
   const [counter, setCounter] = useState(0);
 
   const achievements = [
-    { number: "20+", label: "Projects", icon: <Briefcase className="h-5 w-5" />, suffix: "" },
+    { number: "5+", label: "Projects", icon: <Briefcase className="h-5 w-5" />, suffix: "" },
     { number: "2", label: "Year Freelancing", icon: <Calendar className="h-5 w-5" />, suffix: "+" },
     { number: "100", label: "Learning", icon: <Target className="h-5 w-5" />, suffix: "%" },
-    { number: "20", label: "Projects Completed", icon: <User className="h-5 w-5" />, suffix: "+" }
+    { number: "10+", label: "Projects Completed", icon: <User className="h-5 w-5" />, suffix: "+" }
   ];
 
   const techStack = [
