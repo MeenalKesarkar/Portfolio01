@@ -23,24 +23,37 @@ const projects = [
   ]
   },
   {
-    id: 2,
-    title: "MERN Blog Application",
-    category: "Mern stack",
-    description: "A Full-stack blog platform where users can create, edit, delete, and search posts using the MERN stack.",
-    image: "/projects/project1.png",
-    tags: ["React", "Node.js", "Express", "MongoDB"],
-    demoUrl: "https://blog-app-using-react-rho.vercel.app/",
-    githubUrl: "https://github.com/MeenalKesarkar/BlogApp-using-React",
-    featured: true,
-    accentColor: "from-purple-500 to-indigo-600",
-    status: "Live",
-    highlights: [
-      "CRUD blog posts",
-      "Search functionality",
-      "Responsive UI",
-      "REST API integration"
-    ]
-  },
+  id: 2,
+  title: "College Sports Club Management System",
+  category: "MERN Stack",
+  description:
+    "A full-stack MERN web application for managing a college sports club. It allows administrators to securely manage student athletes, while users can explore different sports, player profiles, and club information through a responsive interface.",
+  image: "/projects/college-sports-club.png",
+  tags: [
+    "React",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JWT",
+    "Axios",
+    "CSS"
+  ],
+  demoUrl: "https://college-s-sports-club.vercel.app/", // Replace with your deployed URL
+  githubUrl: "https://github.com/MeenalKesarkar/College-s-Sports-Club",
+  featured: true,
+  accentColor: "from-blue-500 to-cyan-600",
+  status: "Live",
+  highlights: [
+    "JWT Authentication",
+    "Admin Dashboard",
+    "Student CRUD Operations",
+    "Sports Categories",
+    "Responsive Design",
+    "MongoDB Atlas Integration",
+    "REST API",
+    "Secure Login & Logout"
+  ]
+},
   {
       id: 3,
       title: "Resort Booking Website",
