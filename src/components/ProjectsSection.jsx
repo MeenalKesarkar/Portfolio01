@@ -103,6 +103,25 @@ const projects = [
   },
   {
     id: 6,
+    title: "MERN Blog Application",
+    category: "Mern stack",
+    description: "A Full-stack blog platform where users can create, edit, delete, and search posts using the MERN stack.",
+    image: "/projects/project001.png",
+    tags: ["React", "Node.js", "Express", "MongoDB"],
+    demoUrl: "https://blog-app-using-react-rho.vercel.app/",
+    githubUrl: "https://github.com/MeenalKesarkar/BlogApp-using-React",
+    featured: true,
+    accentColor: "from-purple-500 to-indigo-600",
+    status: "Live",
+    highlights: [
+      "CRUD blog posts",
+      "Search functionality",
+      "Responsive UI",
+      "REST API integration"
+    ]
+  },
+  {
+    id: 7,
     title: "Chatbot",
     category: "React",
     description: "A simple and interactive Chatbot web application that allows users to send messages and receive automated responses. The app includes dynamic features like current date and time with a clean and responsive user interface.",
