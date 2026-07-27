@@ -28,7 +28,7 @@ const projects = [
   category: "MERN Stack",
   description:
     "A full-stack MERN web application for managing a college sports club. It allows administrators to securely manage student athletes, while users can explore different sports, player profiles, and club information through a responsive interface.",
-  image: "/projects/college-sports-club.png",
+  image: "/projects/project1.png",
   tags: [
     "React",
     "Node.js",
